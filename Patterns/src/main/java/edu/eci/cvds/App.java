@@ -10,7 +10,7 @@ public class App
     {
         String saludo = "Hello World!";
         if (args.length > 0) {
-            saludo = "Hello " + args[0];
+            saludo = "Hello " + args[0] + "!";
         }
         System.out.println(saludo);
     }
